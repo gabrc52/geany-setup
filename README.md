@@ -1,9 +1,12 @@
 # geany-setup
 Geany setup for competitive programming
 
-## Dependencies
+## Install on Ubuntu
 
-    sudo apt install geany geany-plugins geany-plugin-vimode cppcheck -y 
+    sudo apt install geany geany-plugins geany-plugin-vimode cppcheck -y
+    cd ~/.config
+    mv geany geany.bak
+    git clone https://github.com/gabrc52/geany-setup.git geany
 
 ## Credits
 
